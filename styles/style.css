@@ -144,6 +144,7 @@
   overflow: hidden;
   color: var(--color);
   background-color: var(--button-text-color);
+  transition: box-shadow 0.3s ease;
 }
 
 .card__icon-button {
@@ -154,6 +155,7 @@
   border: none;
   align-items: center;
   overflow: hidden;
+  transition: outline 0.3s ease;
   padding: 0;
 }
 
@@ -211,9 +213,7 @@
   background-color: white;
   border: 2px solid var(--color);
   width: clamp(341px, 336.77px + 1.13vw, 353px);
-  height: 191px;
   padding: 30px;
-  overflow: hidden;
 }
 
 .popup__text {
@@ -253,7 +253,6 @@ dialog[open]::backdrop {
 .button:focus-visible {
   outline: none;
   box-shadow: 2px 2px 0 var(--color);
-  transition: box-shadow 0.3s ease;
 }
 
 .card__icon-button:focus {
@@ -264,7 +263,6 @@ dialog[open]::backdrop {
   box-sizing: border-box;
   outline: 2px solid var(--color);
   outline-offset: -1.5px;
-  transition: outline 0.3s ease;
 }
 
 .button::before {
@@ -280,7 +278,6 @@ dialog[open]::backdrop {
 
 .button:hover::before {
   translate: 0;
-  transition: 0.5s ease-in-out;
 }
 
 .heart__contour {
