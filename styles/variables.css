@@ -2,8 +2,8 @@
 :root {
   --main-font: "Inter-Variable";
   --decor-font: "PressStart2P";
-  --main-font-text-wght: 410px;
-  --main-font-title-wght: 715px;
+  --main-font-text-wght: 410;
+  --main-font-title-wght: 715;
   --cover: repeating-linear-gradient(
       to right,
       #d3d3d3 0 2px,
